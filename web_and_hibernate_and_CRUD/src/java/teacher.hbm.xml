@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 4, 2020 3:16:56 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="dao.teacher" table="Teacher" catalog="hibernate_webapp" optimistic-lock="version">
+        <id name="tec_id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="tec_name" type="string">
+            <column name="teacher_name" length="50" />
+        </property>
+        <property name="tec_email" type="string">
+            <column name="teacher_email" length="50" />
+        </property>
+        
+        
+    </class>
+</hibernate-mapping>
