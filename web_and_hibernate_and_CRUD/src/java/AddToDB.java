@@ -18,9 +18,10 @@ SessionFactory factory=cfg.buildSessionFactory();
 Session session=factory.openSession(); 
 //creating transaction object
 Transaction t=session.beginTransaction();
-teacher stu=new teacher(); 
-stu.setTec_name("nasim khan");
-session.save(stu);
+teacher te = new teacher();
+te.setTec_name("nasim");
+te.setTec_email("nasim@gmail.com2020");
+te.setPass("123");
 //persisting the objec
 t.commit();
 //transaction is commited

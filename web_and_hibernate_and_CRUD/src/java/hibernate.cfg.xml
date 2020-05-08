@@ -4,7 +4,7 @@
   <session-factory>
       <property name="hibernate.hbm2ddl.auto">create</property>
        <property name="hibernate.hbm2ddl.auto">save</property>
-       
+       <property name ="hibernate.show_sql">true</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_webapp?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>

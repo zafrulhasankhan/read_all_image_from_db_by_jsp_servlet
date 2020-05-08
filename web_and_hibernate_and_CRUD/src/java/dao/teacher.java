@@ -13,6 +13,15 @@ public class teacher {
     private int tec_id;
     private String tec_name;
     private String tec_email;
+   boolean valid; 
+
+    public boolean isValid() {
+        return valid;
+    }
+
+    public void setValid(boolean valid) {
+        this.valid = valid;
+    }
 
     public int getTec_id() {
         return tec_id;
@@ -37,6 +46,7 @@ public class teacher {
     public void setTec_email(String tec_email) {
         this.tec_email = tec_email;
     }
+
     
     
 }

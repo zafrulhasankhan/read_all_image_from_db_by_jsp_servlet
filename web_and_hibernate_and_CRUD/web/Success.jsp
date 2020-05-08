@@ -12,9 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <% String id=request.getParameter("id");
+String un=request.getParameter("uname");
+%>
         <h1>successfuly done</h1>
         <h1>${name}</h1>
         <h1>${email}</h1>
+        <h1>Welcome <%=un%></h1>
+        <h1>Your ID is <%=id%></h1>
         <a href="test">userlist here</a>
     </body>
 </html>

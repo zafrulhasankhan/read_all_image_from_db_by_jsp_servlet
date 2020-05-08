@@ -1,6 +1,6 @@
 <%-- 
-    Document   : registration
-    Created on : May 7, 2020, 3:01:39 PM
+    Document   : login
+    Created on : May 8, 2020, 1:14:44 AM
     Author     : Zafrul Hasan Nasim
 --%>
 
@@ -12,14 +12,13 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="regis_servlet2" method="post">
-            Name:
+        <form action="login_servlet3" method="post">
+           
+            name:
             <input type="text" name="name"><br><br>
             Email:
             <input type="text" name="email"><br><br>
-           
-            <input type="submit" name="register">
+            <input type="submit" name="login">
         </form>
-        <a href="test">list</a>
     </body>
 </html>

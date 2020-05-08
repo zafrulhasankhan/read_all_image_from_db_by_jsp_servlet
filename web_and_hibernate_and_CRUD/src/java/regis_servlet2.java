@@ -27,6 +27,7 @@ public class regis_servlet2 extends HttpServlet {
             throws ServletException, IOException {
          String name = request.getParameter("name");
          String email = request.getParameter("email");
+         
          HttpSession session = request.getSession(true);
         try {
             UserDAO userDAO = new UserDAO();

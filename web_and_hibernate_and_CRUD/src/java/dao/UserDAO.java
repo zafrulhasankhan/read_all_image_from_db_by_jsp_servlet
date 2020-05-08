@@ -45,6 +45,7 @@ public class UserDAO {
             teacher user = new teacher();
             user.setTec_name(name);
             user.setTec_email(email);
+            
             session.save(user);
             transaction.commit();
             System.out.println("\n\n Details Added \n");
